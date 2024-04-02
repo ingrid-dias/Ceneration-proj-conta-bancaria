@@ -23,7 +23,7 @@ export abstract class Conta {
     }
 
     public get agencia() {
-        return this._agencia;
+        return this._agencia; 
     }
 
     public set agencia(agencia: number) {
